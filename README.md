@@ -17,3 +17,5 @@ powerOff - 0 for change of color, 1 - to turn the light off
 
 a.out is for now compiled for Raspoberry Pi, source is inside main.cpp, unfortunetly TelinkCrypto.o is soft float library for ARM, you probably need to use
 crosscompiler to make it work. I used https://crosstool-ng.github.io/, which is great tool and always worked for me.
+
+TelinkCrypto.o is from https://github.com/zhourenjun/BleMeshLib/tree/master/BluetoothLightLib/obj/local
