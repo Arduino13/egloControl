@@ -8,7 +8,7 @@ color of a light.
 ```
 python evoControl.py [sequenceNumber] [redIntensity] [greenIntensity] [blueIntensity] [powerOff]
 ```
-sequenceNumber - after turning on the light every command need to have higher number than previous one, their numbers don't need to be in sequence. 
+sequenceNumber - after turning on the light every command needs to have higher number than previous one, their numbers don't need to be in sequence. 
 After turning off the light this counter is resetted.
 
 redIntensity, greenIntensity, blueIntensity - number from 0 to 127
